@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> LISTAR CAPACITACIONES</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/menu.js"></script>
+</head>
+<nav>
+   
+    <ul class="nav-links">
+        <li>
+            <a href="index.html">Principal</a>
+        </li>
+        <li>
+            <a href="contacto.html">Contacto</a>
+        </li>
+        <li>
+            <a href="crearcapacitacion.html">Agendar Capacitación</a>
+        </li>
+        <li>
+            <a href="listarcapacitaciones.html">Listar Capacitación</a>
+        </li>
+        <li>
+            <a href="listadousuarios.html">Listado de Usuarios</a>
+        </li>
+        <li>
+            <a href="crearusuario.html">Crear Usuario</a>
+        </li>
+        <li>
+            <a href="listadovisitas.html">Listado Visitas</a>
+        </li>
+        <li>
+            <a href="responderchecklist.html">Checklist</a>
+        </li>
+    </ul>
+    <div class="burguer">
+        <div class="linea1"></div>
+        <div class="linea2"></div>
+        <div class="linea3"></div>
+    </div>
+</nav>
+
+
+<br><br>
+
+<body>
+    <div class="tablita">
+        <fieldset>
+            <legend>
+                <h2>Elija una Capacitación</h2>
+            </legend>
+
+        <select name="seleccion">
+        <option value="1">Correcto Uso de Extintores</option>
+        <option value="2">El Uso de Bloqueador Solar</option>
+        <option value="3">Primeros Auxilios</option>
+        <option value="4">¿Qué hacer en caso de incendio?</option>
+        <option value="5">Uso de Vías de Evacuación</option>
+        <option value="6">¿Qué hacer en caso de sismo?</option>
+        <option value="7">¿Qué hacer en caso de ahogamiento?</option>
+        <option value="8">Prevención COVID19</option>
+        <option value="9">Lucha Contra Incendios</option>
+        <option value="10">Triangulación de la Vida</option>
+             
+    </select>
+            <input type="number" placeholder="ID Capacitación"> </input>
+            <input type="date" placeholder="Fecha Capacitación"> </input>
+            <input type="time" placeholder="Hora de Capacitación"> </input>
+            <input type="text" placeholder="Nombre del Cliente"> </input>
+
+            <button>Enviar</button>
+
+            <table style="width:100%" border="1px solid black" id="tabla">
+                <tr>
+                    <th>ID Capacitación</th>
+                    <th>Fecha de Capacitación</th>
+                    <th>Hora de Capacitación</th>
+                    <th>Nombre del Cliente</th>
+                </tr>
+                <tr>
+                    <td>001</td>
+                    <td>20/05/2021</td>
+                    <td>10:30 hrs</td>
+                    <td>Ferreteria El Clavo</td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td>20/04/2021</td>
+                    <td>09:30 hrs</td>
+                    <td>Carnicería El Toro</td>
+                </tr>
+                <tr>
+                    <td>003</td>
+                    <td>22/03/2021</td>
+                    <td>15:30 hrs</td>
+                    <td>Farmacia El Enfermo</td>
+                </tr>
+                <tr>
+                    <td>004</td>
+                    <td>26/07/2021</td>
+                    <td>15:30 hrs</td>
+                    <td>Autolavado El Carro Sucio</td>
+                </tr>
+                <tr>
+                    <td>005</td>
+                    <td>23/10/2021</td>
+                    <td>13:00 hrs</td>
+                    <td>Minimarket El Príncipe</td>
+                </tr>
+                <tr>
+                    <td>006</td>
+                    <td>14/04/2021</td>
+                    <td>10:30 hrs</td>
+                    <td>Cervecería El Borracho</td>
+                </tr>
+                <tr>
+                    <td>007</td>
+                    <td>29/08/2021</td>
+                    <td>16:30 hrs</td>
+                    <td>Automotora El Auto Loco</td>
+                </tr>
+                <tr>
+                    <td>008</td>
+                    <td>21/01/2021</td>
+                    <td>11:30 hrs</td>
+                    <td>Supermercado La Compra</td>
+                </tr>
+                <tr>
+                    <td>009</td>
+                    <td>21/05/2021</td>
+                    <td>09:30 hrs</td>
+                    <td>Funeraria El Muerto</td>
+                </tr>
+                <tr>
+                    <td>010</td>
+                    <td>29/05/2021</td>
+                    <td>08:30 hrs</td>
+                    <td>Cines Unidos</td>
+                </tr>
+
+            </table>
+
+    </div>
+    
+</body>
+
+</html>

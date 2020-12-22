@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESPONDER CHECKLIST</title>
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <script src="JS/menu.js"></script>
+</head>
+<nav>
+   
+    <ul class="nav-links">
+        <li>
+            <a href="index.html">Principal</a>
+        </li>
+        <li>
+            <a href="contacto.html">Contacto</a>
+        </li>
+        <li>
+            <a href="crearcapacitacion.html">Agendar Capacitación</a>
+        </li>
+        <li>
+            <a href="listarcapacitaciones.html">Listar Capacitación</a>
+        </li>
+        <li>
+            <a href="listadousuarios.html">Listado de Usuarios</a>
+        </li>
+        <li>
+            <a href="crearusuario.html">Crear Usuario</a>
+        </li>
+        <li>
+            <a href="listadovisitas.html">Listado Visitas</a>
+        </li>
+        <li>
+            <a href="responderchecklist.html">Checklist</a>
+        </li>
+    </ul>
+    <div class="burguer">
+        <div class="linea1"></div>
+        <div class="linea2"></div>
+        <div class="linea3"></div>
+    </div>
+</nav>
+
+
+<br><br>
+
+<body>
+    <h1>Listado Chequeos de Visitas</h1>
+    <div class="contenedor">
+
+        <form id="formulario" method="post" action="#">
+
+        <input name="checkbox" id="chk1"  type="checkbox">
+        <p>VISITA</p>
+        <ul>
+            <li>001</li>
+            <li>20 febrero 2020</li>
+            <li>15:00</li>
+            <li>23121352-2</li>
+            <li id="nombre1" >Vanessa Amaro Troncoso</li>
+        </ul>
+
+        <input name="checkbox" id="chk2" type="checkbox">
+        <p>VISITA</p>
+        <ul>
+            <li>002</li>
+            <li>10 julio 2020</li>
+            <li>18:00</li>
+            <li>156831213-2</li>
+            <li id="nombre2"  >Juanita Gonzalez Perez</li>
+        </ul>
+    </div>
+    <input type="button" name="Submit" value="Enviar"  onClick="selecciona()">
+    <br>
+</form>
+
+<div >
+    <ul >
+        <li id=nom1></li>
+        <li id=nom2></li>
+    </ul>
+        
+    
+</div>
+
+<script src="JS/sayajin.js" >
+   
+</script>
+
+</body>
+
+</html>
